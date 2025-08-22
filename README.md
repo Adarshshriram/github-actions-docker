@@ -9,7 +9,6 @@
 - Build a Docker image for a Node.js app
 - Push the image to Docker Hub
 - Automate builds on every code push
-- Optionally run locally with Docker / Minikube
 
 This is a resume-worthy DevOps project showing skills in CI/CD, Docker, and GitHub Actions.
 
@@ -41,12 +40,12 @@ This is a resume-worthy DevOps project showing skills in CI/CD, Docker, and GitH
 
 # Setup Instructions
 
-** 1. Clone the Repository **
+# 1. Clone the Repository 
 
 - git clone https://github.com/<username>/github-actions-docker.git
 - cd github-actions-docker
 
-** 2.  Create Docker Hub Secrets in GitHub **
+# 2.  Create Docker Hub Secrets in GitHub 
 
 - Go to GitHub Repo → Settings → Secrets → Actions
 
@@ -56,13 +55,13 @@ This is a resume-worthy DevOps project showing skills in CI/CD, Docker, and GitH
 
   - DOCKER_PASSWORD 
 
-** 3.  Push Code to GitHub **
+# 3.  Push Code to GitHub 
 
 - git add .
 - git commit -m "Initial CI/CD pipeline project"
 - git push origin main
 
-** 4.  Verify in Actions Tab **
+# 4.  Verify in Actions Tab 
 
 - Go to GitHub → Actions
 
@@ -70,7 +69,7 @@ This is a resume-worthy DevOps project showing skills in CI/CD, Docker, and GitH
 
 - Confirm Docker image is pushed to Docker Hub
 
-** 5. Run Locally **
+# 5. Run Locally 
 
 - Pull the Docker image from Docker Hub:
 
@@ -78,9 +77,9 @@ This is a resume-worthy DevOps project showing skills in CI/CD, Docker, and GitH
 
   - docker run -d -p 3000:3000 adhiadarsh/myapp:latest
 
-  - Open in browser: 👉 http://localhost:3000
+  - Open in browser:  http://localhost:3000
 
-** 6. Screenshots to Add in README **
+# 6. Screenshots 
 
  -  GitHub Actions workflow running (green build)
 
@@ -97,7 +96,7 @@ This is a resume-worthy DevOps project showing skills in CI/CD, Docker, and GitH
    <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/d96fea09-f559-4259-820b-75c716c0c666" />
 
 
-** 7. Outcome / Learnings **
+# 7. Outcome / Learnings 
 
 - Hands-on CI/CD with GitHub Actions
 
